@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print("1 arguent:")
     else:
         print("{:d} arguments:".format(num))
-    for i in range(1, num + 1):
-        print('{:d}: {}'.format(i, sys.argv[i]))
+    for i in range(num):
+        print('{:d}: {}'.format(i + 1, sys.argv[i + 1]))
